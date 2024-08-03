@@ -1,0 +1,198 @@
+@media (max-width: 768px) {
+  nav{
+   font-size: smaller;
+
+  }
+  #About 
+  {
+   font-size: smaller;
+  }
+  #Projects 
+  {
+   font-size: smaller;
+  }
+  #Contacts 
+  {
+   font-size: smaller;
+  }
+
+}
+@media (max-width: 480px) {
+   nav{
+    font-size: smaller;
+ 
+   }
+   #About 
+   {
+    font-size: smaller;
+   }
+   #Projects 
+   {
+    font-size: smaller;
+   }
+   #Contacts 
+   {
+    font-size: smaller;
+   }
+ 
+ }
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: rgb(233, 80, 187);
+   width: 100%;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+
+}
+
+
+nav .nav1 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+}
+
+nav .nav1 .port {
+   font-size: 27;
+}
+
+nav .nav1 .menu {
+   display: flex;
+}
+
+nav .nav1 .menu li {
+   margin: 0px 20px;
+   font-size: 17;
+   font-weight: 1000000;
+}
+
+
+a {
+   color: #99479c;
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+    margin: 0 50px;
+   padding: 0 .25rem;
+   text-decoration: none;
+ }
+ 
+section {
+  
+   justify-content: center;
+   align-items: flex-start;
+   padding-top: 70px;
+   width: 100%;
+   height: 100vh;
+}
+
+#About {
+   color: rgba(200, 200, 200, .5);
+   font-size: 50;
+   margin: 50px 0px 0px 0px;
+   background-color: rgb(74, 4, 57);
+}
+
+
+#Contacts {
+   margin: 200px 0px 0px 0px;
+   color: rgba(200, 200, 200, .5);
+   font-size: 50;
+   background-color: rgb(74, 4, 57);
+}
+
+#Projects {
+   margin: 150px 0px 0px 0px;
+   color: rgba(200, 200, 200, .5);
+   font-size: 50;
+   background-color: rgb(74, 4, 57);
+}
+
+.button {
+   
+   background-color: rgb(194, 82, 151);
+   position: absolute;
+   width: 100%;
+   text-align: center;
+ 
+}
+
+#about {
+   padding: 80px;
+   color: #ababab;
+}
+
+.row {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   overflow-wrap: normal;
+}
+
+.about-col-1 {
+   flex-basis: 20%;
+}
+
+.about-col-1 img {
+   width: 100%;
+}
+
+.about-col-2 {
+   flex-basis: 75%;
+   font-size: 20pt;
+   font-weight: 200;
+}
+
+.about-col-2 p {
+   background-color: rgb(74, 4, 57);
+}
+
+.about-col-2 span {
+   width: 100%;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;  
+  padding: 10px;
+  width: 150px; 
+}
+
+.contPro
+{
+   width: 600px;
+}
+.proj
+{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,
+   minmax(150px, 1fr));
+   
+}
+
+.project-col-1 {
+  padding: 1rem;
+  margin-top: 40%;
+
+}
+.project-col-2 {
+   padding: 1rem;
+   margin-top: 40%;
+}
+.project-col-3 {
+   padding: 1rem;
+   margin-top: 40%;
+}
+figcaption{
+   font-size: medium;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 100;
+
+}
+
+a :hover
+{
+text-decoration: underline;
+
+}
